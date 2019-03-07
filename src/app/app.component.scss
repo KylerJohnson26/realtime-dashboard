@@ -1,4 +1,13 @@
-.layout {
-  display: grid;
-  grid-template-columns: 20% 0 auto;
+@import '../theme.scss';
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+
+
+  .dashboard-panel {
+    background-color: $panelColor;
+  }
 }
+

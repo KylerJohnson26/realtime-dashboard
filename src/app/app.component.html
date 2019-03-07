@@ -1,9 +1,7 @@
-<div class="layout">
-  <section class="side-panel">
-    <app-nav-panel></app-nav-panel>
-  </section>
-  <section class="dashboard-panel">
-    <app-header></app-header>
+<app-header></app-header>
+<div class="wrapper">
+  <app-nav-panel></app-nav-panel>
+  <div class="dashboard-panel">
     <router-outlet></router-outlet>
-  </section>
+  </div>
 </div>
