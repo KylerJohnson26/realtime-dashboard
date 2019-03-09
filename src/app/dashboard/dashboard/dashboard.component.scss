@@ -1,0 +1,51 @@
+@import '../../../theme.scss';
+
+.dashboard-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 15px 1fr;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  height: 100%;
+
+  .test {
+    background-color: $panelColor;
+    border-radius: 4px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .test2 {
+    background-color: $panelColor;
+    border-radius: 4px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .test3 {
+    background-color: $panelColor;
+    border-radius: 4px;
+    grid-column-start: 3;
+    grid-column-end: -1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .test4 {
+    background-color: $panelColor;
+    border-radius: 4px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: -1;
+  }
+  .test5 {
+    background-color: $panelColor;
+    border-radius: 4px;
+    grid-column-start: 3;
+    grid-column-end: auto;
+    grid-row-start: 2;
+    grid-row-end: -1;
+  }
+}
