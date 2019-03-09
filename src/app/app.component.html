@@ -1,7 +1,13 @@
-<app-header></app-header>
 <div class="wrapper">
-  <app-nav-panel></app-nav-panel>
-  <div class="dashboard-panel">
-    <router-outlet></router-outlet>
-  </div>
+  <header class="page-header">
+    <app-header></app-header>
+  </header>
+  <section class="page-content">
+    <aside class="side-panel">
+      <app-nav-panel></app-nav-panel>
+    </aside>
+    <div class="dashboard-panel">
+      <router-outlet></router-outlet>
+    </div>
+  </section>
 </div>

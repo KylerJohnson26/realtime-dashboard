@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+
+  .app-title {
+    flex: 1;
+    padding: 0;
+    margin: 0;
+  }
+
+  .user-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .notifications {
+      font-size: 1.5em;
+      margin-right: 15px;
+    }
+
+    .avatar {
+      font-size: 2em;
+    }
+  }
+
+}

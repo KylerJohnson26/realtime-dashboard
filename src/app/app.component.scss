@@ -1,13 +1,35 @@
 @import '../theme.scss';
 
 .wrapper {
+  color: $textColor;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   height: 100%;
 
-
-  .dashboard-panel {
+  .page-header {
     background-color: $panelColor;
   }
+
+  .page-content {
+    background-color: $bgColor;
+    display: flex;
+    flex-direction: row;
+    padding: 15px 15px 15px 0;
+    flex: 1;
+
+    .side-panel {
+      background-color: $panelColor;
+      border-radius: 0 4px 4px 0;
+      flex: 1 1 10%;
+      margin-right: 15px;
+    }
+
+    .dashboard-panel {
+      background-color: $panelColor;
+      border-radius: 4px;
+      flex: 1 1 75%;
+    }
+  }
+
 }
 
