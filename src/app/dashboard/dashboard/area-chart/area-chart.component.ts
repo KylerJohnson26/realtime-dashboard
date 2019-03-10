@@ -63,7 +63,7 @@ export class AreaChartComponent implements OnInit, OnChanges {
     // bar colors
     this.colors = d3.scaleLinear()
       .domain([0, this.data.length])
-      .range(['red', 'blue'] as any[]);
+      .range(['magenta', 'cyan'] as any[]);
     // x & y axis
     this.xAxis = svg.append('g')
       .attr('class', 'axis axis-x')

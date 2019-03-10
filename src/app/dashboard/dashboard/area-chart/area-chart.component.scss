@@ -1,6 +1,6 @@
 .d3-chart {
   width: 100%;
-  height: 400px;
+  height: 100%;
 }
 
 .d3-chart .axis path,
@@ -11,3 +11,8 @@
 .d3-chart .axis text {
   fill: #999;
 }
+
+.d3-chart path {
+  stroke-width: 3;
+}
+

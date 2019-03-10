@@ -22,11 +22,11 @@ export class DashboardComponent implements OnInit {
 
   generateData() {
     this.chartData = [];
-    for (let i = 0; i < (8 + Math.floor(Math.random() * 10)); i++) {
+    for (let i = 0; i < 10; i++) {
       this
         .chartData
         .push([
-          `Index ${i}`, Math.floor(Math.random() * 100)
+          `Product ${i + 1}`, Math.floor(Math.random() * 100)
         ]);
     }
   }
